@@ -1,0 +1,29 @@
+Codemap Scan Report — 2026-05-18
+==================================
+
+Files scanned: 2 (README.md, .github/workflows/snake.yml)
+Total lines: 154
+Codemap files generated: 4
+
+CHANGES (initial scan — no previous baseline)
+--------------------------------------------
+NEW: docs/CODEMAPS/architecture.md
+NEW: docs/CODEMAPS/README-sections.md
+NEW: docs/CODEMAPS/workflows.md
+NEW: docs/CODEMAPS/dependencies.md
+
+KEY OBSERVATIONS
+----------------
+- No package.json, no build step — pure Markdown + GitHub Actions
+- Snake workflow migrated: commit-to-main → gh-pages deploy to `output` branch
+- Removed obsolete local `output/` directory (now generated per-branch by CI)
+- README updated: +44 lines (82 → 124), added 7 new sections
+- Streak stats domain fixed: herokuapp.com → demolab.com
+- Removed broken `cron-script` repo reference (doesn't exist on GitHub)
+- Added 6 new real repos to Featured Projects
+- Added: capsule-render header, activity graph, trophies, collapsible project table
+
+WARNINGS
+--------
+- komarev.com (profile views) has medium reliability — consider fallback
+- New GitHub account (created 2025-04-01): stats/trophies will grow over time
