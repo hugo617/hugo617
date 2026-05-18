@@ -2,7 +2,7 @@
 
 <h3 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=800&color=58A6FF&center=true&vCenter=true&repeat=true&random=false&width=620&lines=Building+full-stack+apps+with+TypeScript+%26+React;Crafting+AI+Agent+tooling+%26+MCP+servers;Exploring+LLM+integrations+%26+developer+experience;From+zero+to+production%2C+one+commit+at+a+time" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=800&color=58A6FF&center=true&vCenter=true&repeat=true&random=false&width=620&lines=Building+full-stack+apps+with+TypeScript+%26+React;Crafting+AI+Agent+tooling+%26+MCP+servers;Exploring+LLM+integrations+%26+developer+experience;Turning+coffee+into+code+since+2025" alt="Typing SVG" />
   </a>
 </h3>
 
@@ -110,6 +110,16 @@ motto       Ship fast, learn faster.
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hugo617/hugo617/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hugo617/hugo617/output/github-snake.svg" />
     <img alt="github-snake" src="https://raw.githubusercontent.com/hugo617/hugo617/output/github-snake-dark.svg" />
+  </picture>
+</p>
+
+### 🎮 3D Contribution Calendar
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hugo617/hugo617/3d-contribution/city-night-profile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hugo617/hugo617/3d-contribution/city-day-profile.svg" />
+    <img alt="3D Contributions" src="https://raw.githubusercontent.com/hugo617/hugo617/3d-contribution/city-night-profile.svg" />
   </picture>
 </p>
 
