@@ -13,32 +13,24 @@
   <img src="https://komarev.com/ghpvc/?username=hugo617&style=flat-square&color=58A6FF&label=Views" alt="Profile Views" />
 </p>
 
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hugo617&layout=donut-vertical&theme=radical&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9&langs_count=10&exclude_repo=andrej-karpathy-skills,cc-glm-status" width="250" />
+<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hugo617&layout=donut-vertical&theme=radical&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9&langs_count=10&exclude_repo=andrej-karpathy-skills,cc-glm-status" width="245" />
 
-### 👨‍💻 About Me
-
-```typescript
-const hugo = {
-  location: "China",
-  focus: ["Full Stack", "AI Agent", "DevTools"],
-  currentBuild: [
-    "AI Agent framework & management dashboards",
-    "MCP servers & Claude Code tooling",
-    "Healthcare admin platforms",
-    "Developer experience & productivity tools",
-  ],
-  techStack: {
-    frontend: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
-    backend: ["Node.js", "Express", "Python", "Go"],
-    database: ["PostgreSQL", "Redis"],
-    infra: ["Docker", "GitHub Actions", "Linux"],
-    ai: ["LLM APIs", "MCP", "Prompt Engineering"],
-  },
-  motto: "Ship fast, learn faster.",
-};
+```bash
+hugo@github
+-----------
+os          China
+role        Full Stack Developer
+focus       AI Agent & DevTools
+editor      VS Code
+languages   TypeScript, Python, Go, JavaScript
+frontend    React, Next.js, Tailwind CSS
+backend     Node.js, Express
+database    PostgreSQL, Redis
+devops      Docker, GitHub Actions, Linux
+ai          LLM APIs, MCP, Prompt Engineering
+repos       20
+motto       Ship fast, learn faster.
 ```
-
-> 💡 *"The best way to predict the future is to build it."* — Alan Kay
 
 <br clear="both">
 
@@ -77,7 +69,7 @@ const hugo = {
 
 ### 📌 Featured Projects
 
-> Highlighted projects — click to explore.
+> Click to explore.
 
 <p align="center">
   <a href="https://github.com/hugo617/openclaw-admin">
@@ -119,6 +111,12 @@ const hugo = {
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hugo617/hugo617/output/github-snake.svg" />
     <img alt="github-snake" src="https://raw.githubusercontent.com/hugo617/hugo617/output/github-snake-dark.svg" />
   </picture>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" />
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=80&section=footer" />
