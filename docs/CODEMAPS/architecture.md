@@ -28,23 +28,23 @@ GitHub renders on profile page ──► External SVG/Badge services (on-demand)
         │                              │
         │                              ├── capsule-render (header/footer)
         │                              ├── readme-typing-svg (animation)
-        │                              ├── github-readme-stats (cards)
+        │                              ├── github-readme-stats (cards, pins, langs)
         │                              ├── streak-stats (streak)
-        │                              ├── activity-graph (graph)
-        │                              ├── github-profile-trophy
         │                              ├── skillicons.dev (icons)
         │                              └── komarev.com (views)
         │
 GitHub Actions (cron daily)
         │
-        ├── Platane/snk/svg-only@v3 ──► Generate snake SVGs
-        └── ghaction-github-pages@v4 ► Deploy to `output` branch
+        ├── snake.yml: Platane/snk → gh-pages → `output` branch
+        └── 3d-contrib.yml: yoshi389111 → `3d-contribution` branch
 ```
 
 ## Key Decisions
 
 | Decision | Choice | Rationale |
 |----------|--------|-----------|
-| Snake deployment | Separate `output` branch via gh-pages | Standard pattern, avoids main branch pollution |
+| Content-first layout | Projects above stats | Visitors care about your work, not decorations |
+| Snake deployment | `output` branch via gh-pages | Standard pattern, avoids main branch pollution |
+| 3D Calendar | `3d-contribution` branch via action | Isometric contribution view, complements snake |
 | Theme | `radical` dark (`bg_color=0d1117`) | Matches GitHub dark mode default |
-| Stats host | vercel.app (readme-stats, streak-stats, activity-graph) | Reliable, free, no self-hosting |
+| External service budget | ~14 requests | Down from 22+, faster load, fewer failure points |

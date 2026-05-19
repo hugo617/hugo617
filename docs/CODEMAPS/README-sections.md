@@ -1,22 +1,20 @@
-<!-- Generated: 2026-05-18 | Files scanned: 1 | Token estimate: ~350 -->
+<!-- Generated: 2026-05-19 | Files scanned: 1 | Token estimate: ~350 -->
 
 # Profile README Structure
 
 ## Sections (top → bottom)
 
-| # | Section | Lines | External Services |
-|---|---------|-------|-------------------|
-| 1 | **Header** — capsule-render waving gradient + name/title | 1 | `capsule-render.vercel.app` |
-| 2 | **Typing SVG** — rotating taglines (h3, not h1 to avoid duplicate heading with header) | 3-7 | `readme-typing-svg.demolab.com` |
-| 3 | **Contact Badges** — Email, GitHub, Blog, Profile Views | 9-13 | `img.shields.io`, `komarev.com` |
-| 4 | **About Me** — TypeScript code block bio + donut chart (right-aligned) | 15-40 | `github-readme-stats.vercel.app` (top-langs) |
-| 5 | **GitHub Stats** — Stats card + Streak card | 44-49 | `github-readme-stats`, `streak-stats.demolab.com` |
-| 6 | **Activity Graph** — 31-day contribution graph | 51-55 | `github-readme-activity-graph.vercel.app` |
-| 7 | **Tech Stack** — skill icons row | 59-63 | `skillicons.dev` |
-| 8 | **Trophies** — achievement badges | 67-71 | `github-profile-trophy.vercel.app` |
-| 9 | **Featured Projects** — 4 pin cards + collapsible table (6 more) | 75-118 | `github-readme-stats.vercel.app` (pin) |
-| 10 | **Snake Animation** — dark/light SVG via `<picture>` | 122-128 | `raw.githubusercontent.com` |
-| 11 | **Footer** — capsule-render waving | 130 | `capsule-render.vercel.app` |
+| # | Section | External Services |
+|---|---------|-------------------|
+| 1 | **Header** — capsule-render waving gradient + name/title | `capsule-render.vercel.app` |
+| 2 | **Typing SVG** — rotating taglines (h3) | `readme-typing-svg.demolab.com` |
+| 3 | **Contact Badges** — Email, GitHub, Views | `img.shields.io`, `komarev.com` |
+| 4 | **Neofetch Terminal** — bash-style bio + donut chart (right) | `github-readme-stats.vercel.app` (top-langs) |
+| 5 | **Featured Projects** — 4 pin cards + collapsible table (6 more) | `github-readme-stats.vercel.app` (pin) |
+| 6 | **GitHub Stats** — Stats card + Streak card | `github-readme-stats`, `streak-stats.demolab.com` |
+| 7 | **Tech Stack** — skill icons row | `skillicons.dev` |
+| 8 | **Contribution Viz** — Snake + 3D Calendar (merged) | `raw.githubusercontent.com` |
+| 9 | **Footer** — capsule-render waving | `capsule-render.vercel.app` |
 
 ## Design Tokens
 
@@ -27,7 +25,7 @@ text_color:    c9d1d9 (GitHub light gray)
 accent_color:  bc8cff (purple, streak/fire)
 ```
 
-## Featured Repos (real, verified on GitHub)
+## Featured Repos (verified on GitHub)
 
 | Repo | Description | Category |
 |------|-------------|----------|
@@ -41,3 +39,10 @@ accent_color:  bc8cff (purple, streak/fire)
 | `hanzi-ai-study` | Chinese character AI learning | AI Education |
 | `life_coach` | Life coaching tools | Misc |
 | `md2docx` | Markdown to Word converter | Python Tool |
+
+## Architecture Decisions
+
+- Content-first: Featured Projects promoted above stats
+- Substance over decoration: removed trophies, random quote, activity graph
+- Reduced external requests from 22+ to ~14
+- Snake + 3D Calendar require workflows to run before SVGs exist

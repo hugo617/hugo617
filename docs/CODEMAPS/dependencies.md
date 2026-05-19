@@ -1,29 +1,32 @@
-<!-- Generated: 2026-05-18 | Files scanned: 2 | Token estimate: ~300 -->
+<!-- Generated: 2026-05-19 | Files scanned: 3 | Token estimate: ~250 -->
 
 # External Dependencies
 
 ## Runtime Services (loaded by browser when viewing profile)
 
-| Service | URL | Purpose | Reliability |
-|---------|-----|---------|-------------|
-| capsule-render | `capsule-render.vercel.app` | Header/footer wave gradient | High |
-| readme-typing-svg | `readme-typing-svg.demolab.com` | Typing animation SVG | High |
-| shields.io | `img.shields.io` | Contact/status badges | Very High |
-| komarev | `komarev.com/ghpvc` | Profile view counter | Medium |
-| github-readme-stats | `github-readme-stats.vercel.app` | Stats, langs, pin cards | High |
-| streak-stats | `streak-stats.demolab.com` | Contribution streak | High |
-| activity-graph | `github-readme-activity-graph.vercel.app` | 31-day activity | High |
-| github-profile-trophy | `github-profile-trophy.vercel.app` | Achievement trophies | High |
-| skillicons.dev | `skillicons.dev` | Tech stack icons | High |
+| Service | Purpose | Count |
+|---------|---------|-------|
+| `capsule-render.vercel.app` | Header/footer wave gradient | 2 |
+| `readme-typing-svg.demolab.com` | Typing animation SVG | 1 |
+| `img.shields.io` | Contact/status badges | 2 |
+| `komarev.com/ghpvc` | Profile view counter | 1 |
+| `github-readme-stats.vercel.app` | Stats, langs, pin cards | 7 |
+| `streak-stats.demolab.com` | Contribution streak | 1 |
+| `skillicons.dev` | Tech stack icons | 1 |
+| `raw.githubusercontent.com` | Snake + 3D calendar SVGs | 4 |
+
+**Total: ~19 HTTP requests** (down from 22+)
 
 ## CI/CD Dependencies (GitHub Actions)
 
 | Action | Version | Purpose |
 |--------|---------|---------|
 | `actions/checkout` | v4 | Checkout repository |
-| `Platane/snk/svg-only` | v3 | Generate snake SVG from contribution data |
-| `crazy-max/ghaction-github-pages` | v4 | Deploy `dist/` to `output` branch |
+| `actions/checkout` | v3 | Checkout repository (3d-contrib) |
+| `Platane/snk/svg-only` | v3 | Generate snake SVG |
+| `crazy-max/ghaction-github-pages` | v4 | Deploy to output branch |
+| `yoshi389111/github-profile-3d-contrib` | 0.7.0 | 3D contribution calendar |
 
 ## No Build Dependencies
 
-This project has no `package.json`, no build step, and no runtime dependencies. The README is pure Markdown with embedded `<img>` tags pointing to external services.
+No `package.json`, no build step. Pure Markdown + GitHub Actions.
